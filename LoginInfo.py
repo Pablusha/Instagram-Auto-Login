@@ -1,2 +1,2 @@
-username = "" #Instagram user name
+username = "" #Instagram username
 password = "" #Instagram password
