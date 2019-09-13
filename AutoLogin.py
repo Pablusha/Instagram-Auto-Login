@@ -6,7 +6,7 @@ import LoginInfo
 browser = webdriver.Chrome(ChromeDriverManager().install())
 browser.get("https://www.instagram.com/")
 
-login = browser.find_element_by_xpath("//*[@id='react-root']/section/main/article/div[2]/div[2]/p/a")
+login = browser.find_element_by_xpath("//*[@id='react-root']/section/main/article/div[2]/div[2]/p/a") #This xpath code changes each time you refresh the page
 login.click()
 time.sleep(3)
 
